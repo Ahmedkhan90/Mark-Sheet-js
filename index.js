@@ -10,27 +10,27 @@
 // Result Result
 
 
-// function total(){
-//     var tarjama = document .getElementById("t").value
-//     var hadees = document .getElementById("h").value
-//     var sarf = document .getElementById("s").value
-//     var nahv = document .getElementById("n").value
-//     var fiqh = document .getElementById("f").value
-//     var number = +tarjama + +hadees + +sarf + +nahv + +fiqh
-//     var total = 500
-//     var per = (number/total) * 100
-// alert(per + "%")
-// if(per >= 45){
-//     alert('MumtazMassharf')
-// }else if(per >= 30 && per < 45){
-//     alert('Mumtaz')
-// }else if(per >=20 && per <30){
-//     alert('Jayyid')
-// }else{
-//     alert('Nakaam')
-// }
+function total(){
+    var tarjama = document .getElementById("t").value
+    var hadees = document .getElementById("h").value
+    var sarf = document .getElementById("s").value
+    var nahv = document .getElementById("n").value
+    var fiqh = document .getElementById("f").value
+    var number = +tarjama + +hadees + +sarf + +nahv + +fiqh
+    var total = 500
+    var per = (number/total) * 100
+alert(per + "%")
+if(per >= 45){
+    alert('MumtazMassharf')
+}else if(per >= 30 && per < 45){
+    alert('Mumtaz')
+}else if(per >=20 && per <30){
+    alert('Jayyid')
+}else{
+    alert('Nakaam')
+}
 
-// }
+}
 
 
 
